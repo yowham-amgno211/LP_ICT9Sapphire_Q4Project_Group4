@@ -61,8 +61,8 @@
 
         .post-image {
             width: 100%;
-            height: 300px;
-            object-fit: cover;
+            height: 350px;
+            object-fit:cover;
         }
 
         footer {
@@ -71,6 +71,14 @@
             margin-top: 40px;
             background-color: white;
         }
+
+        .side-box {
+    border: 3px solid rgb(13, 75, 133); 
+    border-radius: 15px;
+    background-color: white;
+    padding: 20px;
+    height: 100%;
+}
 
     </style>
 </head>
@@ -104,28 +112,29 @@
 
     <div class="main-content">
 
-        <h2 class="dashboard-title">
+        <h2 class="dashboard-title" style="background-color: #a3c2e0;">
             Dashboard
         </h2>
 
        
+<div class="row justify-content-center g-4">
 
 
-                <div class="col-lg-5">
+                <div class="col-lg-5" ;>
 
                     <div class="card p-4 shadow h-100"
-                         style="background-color: rgb(25, 163, 114);">
+                         style="background-color: rgb(253, 217, 95);"> 
 
-                         <h2> O.B. Montessori Center
+                         <h2 style="color: #040404;"> O.B. Montessori Center
                          </h2>
 
-                         <p> OBMC Celebrates its 60th anniversary!</p>
+                         <p style="color: #040404;"> OBMC Celebrates its 60th anniversary!</p>
 
                         <img src="2026.jpg"
                              class="rounded mb-3 post-image"
                              alt="picture">
 
-                        <label class="mb-2 text-white">
+                        <label class="mb-2 text-black" style="color: #040404;">
                             Comments:
                         </label>
 
@@ -139,18 +148,57 @@
                                    type="checkbox"
                                    id="save">
 
-                            <label class="form-check-label text-white"
+                            <label class="form-check-label text-black"
                                    for="save">
 
                                 Save this post
 
                             </label>
+                            
 
                         </div>
 
                     </div>
 
                 </div>
+
+                <br><br><br>
+
+<div class="col-lg-5" ;>
+
+                    <div class="card p-4 shadow h-100"
+                         style="background-color: rgb(253, 217, 95);">
+
+                         <h2 style="color: #040404;"> O.B. Montessori Center
+                         </h2>
+
+                         <p style="color: #040404;"> OBMC Celebrates Le Bal!</p>
+
+                        <img src="lebal.jpg"
+                             class="rounded mb-3 post-image"
+                             alt="picture">
+
+                        <label class="mb-2 text-black">
+                            Comments:
+                        </label>
+
+                        <input type="text"
+                               class="form-control"
+                               placeholder="Type here">
+
+                        <div class="form-check mt-4">
+
+                            <input class="form-check-input"
+                                   type="checkbox"
+                                   id="save">
+
+                            <label class="form-check-label text-black"
+                                   for="save">
+
+                                Save this post
+
+                            </label>
+                 
 
             </div>
 
